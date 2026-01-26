@@ -1,0 +1,441 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1769424999761,
+        "children": [],
+        "todo": {
+          "content": "Objectif: un chat bot orienté code en mode CLI, utilisant l'IA avec un LLM local orienté code",
+          "id": 1769424999761,
+          "level": "default",
+          "done": false,
+          "start": 1769424999761
+        }
+      },
+      {
+        "key": 1769425023130,
+        "children": [
+          {
+            "key": 1769425975703,
+            "children": [],
+            "todo": {
+              "content": "les dépendances sont: {  \"dependencies\": {    \"@genkit-ai/compat-oai\": \"^1.28.0\",    \"prompts\": \"^2.4.2\"  },  \"type\": \"module\"}",
+              "id": 1769425975703,
+              "level": "default",
+              "done": false,
+              "start": 1769425975703
+            }
+          },
+          {
+            "key": 1769426021803,
+            "children": [],
+            "todo": {
+              "content": "le projet Genkit JS est disponible ici: https://github.com/firebase/genkit/tree/main/js",
+              "id": 1769426021803,
+              "level": "default",
+              "done": false,
+              "start": 1769426021803
+            }
+          },
+          {
+            "key": 1769426089021,
+            "children": [],
+            "todo": {
+              "content": "la documentation de Genkit JS est disponible ici: https://genkit.dev/docs/get-started/",
+              "id": 1769426089021,
+              "level": "default",
+              "done": false,
+              "start": 1769426089021
+            }
+          },
+          {
+            "key": 1769426210507,
+            "children": [],
+            "todo": {
+              "content": "la documentation de docker model runner est disponible ici: https://docs.docker.com/ai/model-runner/",
+              "id": 1769426210507,
+              "level": "default",
+              "done": false,
+              "start": 1769426210507
+            }
+          }
+        ],
+        "todo": {
+          "content": "Technologies à utiliser: NodeJS, Genkit JS pour la partie AI, Docker Model Runner pour les LLMs locaux, Docker Agentic Compose pour l'exécution",
+          "id": 1769425023130,
+          "level": "default",
+          "done": false,
+          "start": 1769425023130
+        }
+      },
+      {
+        "key": 1769425217246,
+        "children": [
+          {
+            "key": 1769425945967,
+            "children": [],
+            "todo": {
+              "content": "Il faudra charger le modèle avec la commande : docker model pull hf.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF:Q4_K_M",
+              "id": 1769425945967,
+              "level": "default",
+              "done": false,
+              "start": 1769425945967
+            }
+          }
+        ],
+        "todo": {
+          "content": "LLM à utiliser: hf.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF:Q4_K_M",
+          "id": 1769425217246,
+          "level": "default",
+          "done": false,
+          "start": 1769425217246
+        }
+      },
+      {
+        "key": 1769425399209,
+        "children": [
+          {
+            "key": 1769425409769,
+            "children": [],
+            "todo": {
+              "content": "Afficher un prompt utilisateur (utiliser prompt.js) permettant à l'utilisateur de poser une question",
+              "id": 1769425409769,
+              "level": "default",
+              "done": false,
+              "start": 1769425409769
+            }
+          },
+          {
+            "key": 1769425459153,
+            "children": [],
+            "todo": {
+              "content": "Transmettre la question au LLM (via docker model runner)",
+              "id": 1769425459153,
+              "level": "default",
+              "done": false,
+              "start": 1769425459153
+            }
+          },
+          {
+            "key": 1769425487910,
+            "children": [],
+            "todo": {
+              "content": "La complétion/réponse du LLM se fera en mode streaming",
+              "id": 1769425487910,
+              "level": "default",
+              "done": false,
+              "start": 1769425487910
+            }
+          },
+          {
+            "key": 1769425562141,
+            "children": [],
+            "todo": {
+              "content": "Une fois la complétion terminée, revenir au prompt utilisateur",
+              "id": 1769425562141,
+              "level": "default",
+              "done": false,
+              "start": 1769425562141
+            }
+          },
+          {
+            "key": 1769425622216,
+            "children": [],
+            "todo": {
+              "content": "Permettre de quitter avec une commande /bye",
+              "id": 1769425622216,
+              "level": "default",
+              "done": false,
+              "start": 1769425622216
+            }
+          },
+          {
+            "key": 1769425791739,
+            "children": [
+              {
+                "key": 1769425853933,
+                "children": [],
+                "todo": {
+                  "content": "Proposer un contenu pour ce fichier",
+                  "id": 1769425853933,
+                  "level": "default",
+                  "done": false,
+                  "start": 1769425853933
+                }
+              }
+            ],
+            "todo": {
+              "content": "Il faudra pouvoir paramétrer des instructions systèmes pour le chat bot dans un fichier markdown coding.instructions.md",
+              "id": 1769425791739,
+              "level": "default",
+              "done": false,
+              "start": 1769425791739
+            }
+          }
+        ],
+        "todo": {
+          "content": "Fonctionnalités: 1ère partie",
+          "id": 1769425399209,
+          "level": "default",
+          "done": false,
+          "start": 1769425399209
+        }
+      },
+      {
+        "key": 1769425530835,
+        "children": [
+          {
+            "key": 1769425600635,
+            "children": [],
+            "todo": {
+              "content": "Gérer la mémoire conversationnelle",
+              "id": 1769425600635,
+              "level": "default",
+              "done": false,
+              "start": 1769425600635
+            }
+          },
+          {
+            "key": 1769425654353,
+            "children": [],
+            "todo": {
+              "content": "Permettre d'afficher la liste des messages de l'historique avec une commande /history",
+              "id": 1769425654353,
+              "level": "default",
+              "done": false,
+              "start": 1769425654353
+            }
+          },
+          {
+            "key": 1769425689283,
+            "children": [
+              {
+                "key": 1769425727883,
+                "children": [],
+                "todo": {
+                  "content": "le message initial de system instructions est conservé",
+                  "id": 1769425727883,
+                  "level": "default",
+                  "done": false,
+                  "start": 1769425727883
+                }
+              }
+            ],
+            "todo": {
+              "content": "Permettre de vider l'historique système avec une commande /clear",
+              "id": 1769425689283,
+              "level": "default",
+              "done": false,
+              "start": 1769425689283
+            }
+          }
+        ],
+        "todo": {
+          "content": "Fonctionnalités: 2ème partie",
+          "id": 1769425530835,
+          "level": "default",
+          "done": false,
+          "start": 1769425530835
+        }
+      },
+      {
+        "key": 1769426245269,
+        "children": [
+          {
+            "key": 1769426265703,
+            "children": [
+              {
+                "key": 1769426296569,
+                "children": [],
+                "todo": {
+                  "content": "Créer le Dockerfile pour l'application NodeJS",
+                  "id": 1769426296569,
+                  "level": "default",
+                  "done": false,
+                  "start": 1769426296569
+                }
+              },
+              {
+                "key": 1769426313372,
+                "children": [
+                  {
+                    "key": 1769426364539,
+                    "children": [],
+                    "todo": {
+                      "content": "La documentation de agentic compose est disponible ici: https://docs.docker.com/ai/compose/models-and-compose/",
+                      "id": 1769426364539,
+                      "level": "default",
+                      "done": false,
+                      "start": 1769426364539
+                    }
+                  },
+                  {
+                    "key": 1769426546387,
+                    "children": [
+                      {
+                        "key": 1769426577704,
+                        "children": [],
+                        "todo": {
+                          "content": "nom du modèle (utiliser l'intégration docker model runner)",
+                          "id": 1769426577704,
+                          "level": "default",
+                          "done": false,
+                          "start": 1769426577704
+                        }
+                      },
+                      {
+                        "key": 1769426585492,
+                        "children": [],
+                        "todo": {
+                          "content": "endpoint docker modèle runner (utiliser l'intégration docker model runner)",
+                          "id": 1769426585492,
+                          "level": "default",
+                          "done": false,
+                          "start": 1769426585492
+                        }
+                      },
+                      {
+                        "key": 1769426608486,
+                        "children": [],
+                        "todo": {
+                          "content": "temperature",
+                          "id": 1769426608486,
+                          "level": "default",
+                          "done": false,
+                          "start": 1769426608486
+                        }
+                      },
+                      {
+                        "key": 1769426616320,
+                        "children": [],
+                        "todo": {
+                          "content": "top_p",
+                          "id": 1769426616320,
+                          "level": "default",
+                          "done": false,
+                          "start": 1769426616320
+                        }
+                      },
+                      {
+                        "key": 1769426631376,
+                        "children": [],
+                        "todo": {
+                          "content": "top_k",
+                          "id": 1769426631376,
+                          "level": "default",
+                          "done": false,
+                          "start": 1769426631376
+                        }
+                      }
+                    ],
+                    "todo": {
+                      "content": "il faudra pouvoir paramétrer avec des variable d'environnement l'application:",
+                      "id": 1769426546387,
+                      "level": "default",
+                      "done": false,
+                      "start": 1769426546387
+                    }
+                  },
+                  {
+                    "key": 1769426679371,
+                    "children": [],
+                    "todo": {
+                      "content": "migrer le fichier markdown coding.instructions.md dans une config du compose file",
+                      "id": 1769426679371,
+                      "level": "default",
+                      "done": false,
+                      "start": 1769426679371
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "Créer le compose file associé en utilisant les spécificités associées de l'intégration de docker model runner dans agentic compose",
+                  "id": 1769426313372,
+                  "level": "default",
+                  "done": false,
+                  "start": 1769426313372
+                }
+              },
+              {
+                "key": 1769426735510,
+                "children": [
+                  {
+                    "key": 1769426786884,
+                    "children": [],
+                    "todo": {
+                      "content": "docker compose up -d",
+                      "id": 1769426786884,
+                      "level": "default",
+                      "done": false,
+                      "start": 1769426786884
+                    }
+                  },
+                  {
+                    "key": 1769426796635,
+                    "children": [],
+                    "todo": {
+                      "content": "docker compose exec simple-chat node index.js",
+                      "id": 1769426796635,
+                      "level": "default",
+                      "done": false,
+                      "start": 1769426796635
+                    }
+                  }
+                ],
+                "todo": {
+                  "content": "on lancera le chat bot de cette manière:",
+                  "id": 1769426735510,
+                  "level": "default",
+                  "done": false,
+                  "start": 1769426735510
+                }
+              }
+            ],
+            "todo": {
+              "content": "Il faut dockeriser l'application",
+              "id": 1769426265703,
+              "level": "default",
+              "done": false,
+              "start": 1769426265703
+            }
+          }
+        ],
+        "todo": {
+          "content": "Fonctionnalités: 3ème partie",
+          "id": 1769426245269,
+          "level": "default",
+          "done": false,
+          "start": 1769426245269
+        }
+      }
+    ],
+    "expandKeys": [
+      1769425399209,
+      1769425409769,
+      1769425530835,
+      1769425600635,
+      1769425689283,
+      1769425791739,
+      1769425217246,
+      1769425023130,
+      1769426245269,
+      1769426265703,
+      1769426546387,
+      1769426585492,
+      1769426735510
+    ],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false,
+    "timelines": [],
+    "showLine": false,
+    "restDays": [],
+    "playFontSize": 24,
+    "title": ".todo",
+    "autoSort": false,
+    "showEndTime": false,
+    "simpleMode": false,
+    "lang": "en",
+    "version": "1769426939162"
+  }
+}
