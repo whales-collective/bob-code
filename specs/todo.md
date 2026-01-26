@@ -4,6 +4,10 @@
   - le projet Genkit JS est disponible ici: https://github.com/firebase/genkit/tree/main/js
   - la documentation de Genkit JS est disponible ici: https://genkit.dev/docs/get-started/
   - la documentation de docker model runner est disponible ici: https://docs.docker.com/ai/model-runner/
+  - Docker Model Runner par défaut écoute sur 12434
+  - L'api de docker model runner est compatible OpenAI
+  - On ne travaillera qu'avec des modèles générant du texte (avec du texte en entrée aussi)
+  - Tu pourras trouver des exemples ici: https://k33g.org/GRP-Genkit%20JS-01-Baby%20steps.html
 - LLM à utiliser: hf.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF:Q4_K_M
   - Il faudra charger le modèle avec la commande : docker model pull hf.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF:Q4_K_M
 - Fonctionnalités: 1ère partie
@@ -31,6 +35,8 @@
         - top_p
         - top_k
       - migrer le fichier markdown coding.instructions.md dans une config du compose file
+        - documentation des configs ici: https://docs.docker.com/reference/compose-file/configs
+        - utiliser `content` comme source de la config
     - on lancera le chat bot de cette manière:
       - docker compose up -d
       - docker compose exec simple-chat node index.js

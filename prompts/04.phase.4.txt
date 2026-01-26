@@ -1,0 +1,11 @@
+Procède à la phase 4
+Une fois terminée:
+- teste la, 
+- fournit les éléments qui prouvent que cela fonctionne
+- execute les commandes docker compose pour builder et lancer l'application pour vérifier qu'il n'y ait pas d'erreur
+
+Puis crée un rapport markdown en français et un autre en anglais sur ce que tu as réalisé dans le répertoire /docs
+Ainsi qu'un mode d'emploi de la phase
+Vérifie toujours la complétude de la documentation par rapport à ce qui a été codé
+
+Mets les plans d'action (FR/EN) à jour

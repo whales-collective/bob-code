@@ -1,0 +1,3 @@
+Peux tu prendre connaissance de ces spécifications @todo.md, les étudier et me proposer un plan d'action
+Génère ensuite le plan d'action dans un fichier markdown dans le répertoire /docs 
+Il faudra une version en français et une version en anglais 
