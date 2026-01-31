@@ -1,3 +1,7 @@
+---
+name: /methodical-dev
+description: Guide l'utilisateur à travers une méthodologie de développement structurée, en suivant les bonnes pratiques pour travailler avec Claude Code de manière contrôlée et efficace.
+---
 # Methodical Development Skill
 
 ## Description
